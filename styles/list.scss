@@ -1,0 +1,29 @@
+/*.list*/
+.list {
+    background-color: #252525;
+    border-radius: 30px;
+    width: 85%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin: auto;
+    /*.list__article__content*/
+    &__article__content {
+        padding-left: 20px;
+        /*.list__article__content__cloud*/
+        &__cloud {
+            opacity: 0.8;
+            padding-top: 10px;
+        }
+         /*.list__article__content__title*/
+        &__title {
+            font-size: 3em;
+        }
+        /*.list__article__content__description*/
+        &__description {
+            font-size: 1.5em;
+        }
+
+    }
+  }
