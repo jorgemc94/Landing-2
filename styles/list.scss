@@ -1,20 +1,24 @@
 /*.list*/
 .list {
     background-color: #252525;
-    border-radius: 30px;
-    width: 85%;
+    border-radius: 3em;
+    width: 80%;
     display: flex;
-    padding: 20px;
+    text-align: left;
     justify-content: space-between;
     color: #FFFFFF;
-    margin: auto;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,80%);
     /*.list__article__content*/
-    &__article__content {
-        padding-left: 20px;
+    &__content {
+        padding-top: 3em;
+        padding-left: 3em;
+        flex-wrap: wrap;
         /*.list__article__content__cloud*/
         &__cloud {
             opacity: 0.8;
-            padding-top: 10px;
         }
          /*.list__article__content__title*/
         &__title {
@@ -22,7 +26,7 @@
         }
         /*.list__article__content__description*/
         &__description {
-            font-size: 1.5em;
+            font-size: 2em;
         }
 
     }

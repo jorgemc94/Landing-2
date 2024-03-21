@@ -5,24 +5,32 @@
     background-image: url("imagenes/emile-seguin-R9OueKOtGGU-unsplash 1.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 130px;
-    padding-bottom: 320px;
-    margin-bottom: 10px;
+    padding-top: 10em;
+    padding-bottom: 40em;
+    margin-bottom: 1em;
+    position: relative;
+
+    /*-header__content*/
+    &__content {
+      padding-left: 35em;
+      padding-right: 35em;
+    
     /*.header__title*/
-    &__title {
-        font-size: 6em;
-      }
-    /*.header__description*/
-    &__description {
-        font-size: 2em;
-    }  
-    /*.header__button*/
-    &__button {
-        padding: 10px 30px 10px 30px;
-        margin-bottom: 40px;
-        border-radius: 30px;
-        background-color: #06040A;
-        color: #FFF;
-        font-size: 1.5em;
-      }
+      &__title {
+          font-size: 6em;
+        }
+      /*.header__description*/
+      &__description {
+          font-size: 2.2em;
+      }  
+      /*.header__button*/
+      &__button {
+          padding: 1em 3em 1em 3em;
+          margin-bottom: 40px;
+          border-radius: 30px;
+          background-color: #06040A;
+          color: #FFF;
+          font-size: 1.5em;
+        }
+    }
 }
